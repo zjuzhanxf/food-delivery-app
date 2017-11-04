@@ -1,0 +1,12 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: food-order-service
+
+com:
+  toby:
+    order:
+      processing:
+        service: http://localhost:9002

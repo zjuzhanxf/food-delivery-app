@@ -1,0 +1,62 @@
+[
+  {
+    "restaurantName": "Panda Express",
+    "restaurantCategory": "Chinese",
+    "rating": "3.5"
+  },
+  {
+    "restaurantName": "Burger King",
+    "restaurantCategory": "American",
+    "rating": "3.0"
+  },
+  {
+    "restaurantName": "KA YuMi Diner",
+    "restaurantCategory": "Korean",
+    "rating": "3.8"
+  },
+  {
+    "restaurantName": "Lanzhou Hand-pulled Noodle",
+    "restaurantCategory": "Chinese",
+    "rating": "4.5"
+  },  
+  {
+    "restaurantName": "Satomi Sushi",
+    "restaurantCategory": "Japanese",
+    "rating": "3.9"
+  },  
+  {
+    "restaurantName": "Sama Uyghur Cuisine",
+    "restaurantCategory": "Chinese",
+    "rating": "4.7"
+  },
+  {
+    "restaurantName": "The Habit Burger Grill",
+    "restaurantCategory": "American",
+    "rating": "3.9"
+  },  
+  {
+    "restaurantName": "Ninja Cafe",
+    "restaurantCategory": "Japanese",
+    "rating": "3.6"
+  },
+  {
+    "restaurantName": "In-N-Out",
+    "restaurantCategory": "American",
+    "rating": "4.2"
+  }, 
+  {
+    "restaurantName": "Bob Sang Korean BBQ and Tofu",
+    "restaurantCategory": "Korean",
+    "rating": "3.3"
+  },  
+  {
+    "restaurantName": "Gen Korean BBQ House",
+    "restaurantCategory": "Korean",
+    "rating": "4.6"
+  },
+  {
+    "restaurantName": "Orenchi Ramen",
+    "restaurantCategory": "Japanese",
+    "rating": "5.0"
+  }       
+]

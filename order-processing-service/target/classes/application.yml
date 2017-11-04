@@ -1,0 +1,9 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: order-processing-service
+  cloud:
+    stream:
+      bindings:
+        output: orders # this is the name of the queue in rabbitMQ

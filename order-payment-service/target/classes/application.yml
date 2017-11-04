@@ -1,0 +1,11 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: order-payment-service
+  cloud:
+    stream:
+      bindings:
+        input: orders # this is the name of the queue in rabbitMQ
+

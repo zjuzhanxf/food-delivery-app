@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Panda Express",
+    "category": "Chinese",
+    "rating": "3.5",
+    "menuItemList": [
+      {
+        "dishName": "Pong Pao Chicken",
+        "dishPrice": "5.49"
+      },
+      {
+        "dishName": "Egg Fried Rice",
+        "dishPrice": "5.88"
+      },
+      {
+        "dishName":"Pork Born Soup",
+        "dishPrice": "6.99"
+      }
+    ]
+  },
+  {
+    "name": "Burger King",
+    "category": "American",
+    "rating": "3.0",
+    "menuItemList": [
+      {
+        "dishName":"Whopper Junior",
+        "dishPrice": "3.99"
+      },
+      {
+        "dishName":"French Fries",
+        "dishPrice": "1.99"
+      },
+      {
+        "dishName":"Chicken Strip",
+        "dishPrice": "3.49"
+      }      
+    ]
+  },
+  {
+    "restaurantName": "KA YuMi Diner",
+    "restaurantCategory": "Korean",
+    "rating": "3.8",
+    "menuItemList": [
+      {
+        "dishName":"Kimchi Noodle",
+        "dishPrice": "8.95"
+      },
+      {
+        "dishName":"Seafood Pancake",
+        "dishPrice": "13.99"
+      },
+      {
+        "dishName":"Cold Rice Noodle",
+        "dishPrice": "6.95"
+      }      
+    ]    
+  },
+  {
+    "restaurantName": "Lanzhou Hand-pulled Noodle",
+    "restaurantCategory": "Chinese",
+    "rating": "4.5",
+    "menuItemList": [
+      {
+        "dishName":"Legend Beef Noodle Soup",
+        "dishPrice": "9.99"
+      },
+      {
+        "dishName":"Spice Beef Noodle Soup",
+        "dishPrice": "10.99"
+      },
+      {
+        "dishName":"Stir Fried Lamb Noodle",
+        "dishPrice": "11.49"
+      }      
+    ]    
+  },  
+  {
+    "restaurantName": "Satomi Sushi",
+    "restaurantCategory": "Japanese",
+    "rating": "3.9",
+    "menuItemList": [
+      {
+        "dishName":"Mushroom porridge",
+        "dishPrice": "7.99"
+      },
+      {
+        "dishName":"BBQ eel Roll",
+        "dishPrice": "6.99"
+      },
+      {
+        "dishName":"California Roll",
+        "dishPrice": "5.49"
+      }      
+    ]    
+  },  
+  {
+    "restaurantName": "Sama Uyghur Cuisine",
+    "restaurantCategory": "Chinese",
+    "rating": "4.7",
+    "menuItemList": [
+      {
+        "dishName":"Xinjiang Big Plate Chicken",
+        "dishPrice": "12.99"
+      },
+      {
+        "dishName":"Ding Ding Fried Noodle",
+        "dishPrice": "10.99"
+      },
+      {
+        "dishName":"Lamb Kebab",
+        "dishPrice": "5.89"
+      }      
+    ]    
+  },
+  {
+    "restaurantName": "The Habit Burger Grill",
+    "restaurantCategory": "American",
+    "rating": "3.9",
+    "menuItemList": [
+      {
+        "dishName":"Char Burger",
+        "dishPrice": "5.49"
+      },
+      {
+        "dishName":"Double Cheese Char Burger",
+        "dishPrice": "6.99"
+      },
+      {
+        "dishName":"Small Diet Coke",
+        "dishPrice": "2.49"
+      }      
+    ]    
+  },  
+  {
+    "restaurantName": "Ninja Cafe",
+    "restaurantCategory": "Japanese",
+    "rating": "3.6",
+    "menuItemList": [
+      {
+        "dishName":"Miso Soup",
+        "dishPrice": "3.99"
+      },
+      {
+        "dishName":"Green Bean Cake",
+        "dishPrice": "4.99"
+      },
+      {
+        "dishName":"Tonkotsu Ramen",
+        "dishPrice": "8.49"
+      }      
+    ]    
+  },
+  {
+    "restaurantName": "In-N-Out",
+    "restaurantCategory": "American",
+    "rating": "4.2",
+    "menuItemList": [
+      {
+        "dishName":"Hamburger",
+        "dishPrice": "3.99"
+      },
+      {
+        "dishName":"Double Cheese Burger",
+        "dishPrice": "4.99"
+      },
+      {
+        "dishName":"Milk Shake",
+        "dishPrice": "3.49"
+      }      
+    ]    
+  }, 
+  {
+    "restaurantName": "Bob Sang Korean BBQ and Tofu",
+    "restaurantCategory": "Korean",
+    "rating": "3.3",
+    "menuItemList": [
+      {
+        "dishName":"Vegetable Pancake",
+        "dishPrice": "10.99"
+      },
+      {
+        "dishName":"Seafood Tofu Pot",
+        "dishPrice": "11.99"
+      },
+      {
+        "dishName":"Prime Beef BBQ",
+        "dishPrice": "15.49"
+      }      
+    ]    
+  },  
+  {
+    "restaurantName": "Gen Korean BBQ House",
+    "restaurantCategory": "Korean",
+    "rating": "4.6",
+    "menuItemList": [
+      {
+        "dishName":"Beef Rib",
+        "dishPrice": "21.99"
+      },
+      {
+        "dishName":"Pork Rib",
+        "dishPrice": "18.99"
+      },
+      {
+        "dishName":"Family Combo",
+        "dishPrice": "32.49"
+      }      
+    ]    
+  },
+  {
+    "restaurantName": "Orenchi Ramen",
+    "restaurantCategory": "Japanese",
+    "rating": "5.0",
+    "menuItemList": [
+      {
+        "dishName":"Chicken Tariyaki Rice Bowl",
+        "dishPrice": "13.99"
+      },
+      {
+        "dishName":"Beef Tariyaki Rice Bowl",
+        "dishPrice": "14.99"
+      },
+      {
+        "dishName":"Soy Sauce Based Ramen",
+        "dishPrice": "11.49"
+      }      
+    ]    
+  }         
+]
