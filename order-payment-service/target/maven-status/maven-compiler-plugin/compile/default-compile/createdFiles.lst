@@ -1,3 +1,6 @@
+demo/service/impl/DefaultPaymentServiceImpl.class
+demo/domain/PaymentRepository.class
+demo/service/PaymentService.class
 demo/domain/CreditCardInfo.class
 demo/domain/Payment.class
 demo/OrderPaymentServiceApplication.class
