@@ -103,7 +103,7 @@ public class DefaultOrderServiceImpl implements OrderService {
 
         String orderProcessingService = "http://order-processing-service";
 
-        // TO-DO: save the order to order database...
+        // Save the order to order database
         Order savedOrder = saveOrder(newOrder);
 
         // send newOrder to order-processing-service

@@ -15,7 +15,7 @@ import java.util.List;
 public class Order {
 
     @Id
-    String Id;
+    String id;
 
     String fromRestaurant;
     List<MenuItem> orderItemList;
