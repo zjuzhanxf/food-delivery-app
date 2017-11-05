@@ -7,4 +7,6 @@ public interface OrderService {
 
     Order processOrder(Order order);
 
+    Order saveOrder(Order order);
+
 }

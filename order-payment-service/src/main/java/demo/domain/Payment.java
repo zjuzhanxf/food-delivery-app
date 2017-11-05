@@ -23,6 +23,9 @@ public class Payment {
 
     CreditCardInfo creditCardInfo;
     Double totalPrice;
+
+    @JsonProperty(value = "id")
+    String orderId;
     Date timestamp = new Date();
 
     @JsonCreator

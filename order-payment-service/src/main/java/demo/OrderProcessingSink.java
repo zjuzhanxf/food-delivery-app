@@ -28,13 +28,17 @@ public class OrderProcessingSink {
        // convert JSON string to object
        Payment payment = mapper.readValue(orderInfo, Payment.class);
        if (!isPaymentValid(payment)) {
-           log.error("Invalid Card! Use another card please.");
+           log.error("[Payment Failed!] Invalid Card! Use another card please.");
            return;
        }
 
        Random rand = new Random();
        int waitTime = 5 + rand.nextInt(56);  // generate an integer [5, 60]
-       log.info(String.format("Payment successful! Your credit card is charged %.2f dollars. Your order will be delivered in %d minutes", payment.getTotalPrice(), waitTime));
+       log.info(String.format("[Payment Successful!] " +
+               "Your credit card is charged %.2f dollars at %s. " +
+               "Order ID is %s. " +
+               "Your order will be delivered in %d minutes",
+               payment.getTotalPrice(), payment.getTimestamp(), payment.getOrderId(), waitTime));
     }
 
     private boolean isPaymentValid(Payment payment) {

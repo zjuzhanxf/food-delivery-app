@@ -1,10 +1,7 @@
 package demo.service.impl;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import demo.domain.CreditCardInfo;
-import demo.domain.MenuItem;
-import demo.domain.Order;
-import demo.domain.Restaurant;
+import demo.domain.*;
 import demo.service.OrderService;
 import demo.service.RestaurantInfoService;
 import lombok.extern.slf4j.Slf4j;
@@ -22,6 +19,7 @@ import java.util.Random;
 @Slf4j
 public class DefaultOrderServiceImpl implements OrderService {
     private RestaurantInfoService restaurantInfoService;
+    private OrderRepository orderRepository;
 
     @Autowired
     private RestTemplate restTemplate;
@@ -30,8 +28,9 @@ public class DefaultOrderServiceImpl implements OrderService {
 //    private String orderProcessingService;
 
     @Autowired
-    public DefaultOrderServiceImpl(RestaurantInfoService service) {
+    public DefaultOrderServiceImpl(RestaurantInfoService service, OrderRepository orderRepository) {
         this.restaurantInfoService = service;
+        this.orderRepository = orderRepository;
     }
 
     @Override
@@ -104,19 +103,26 @@ public class DefaultOrderServiceImpl implements OrderService {
 
         String orderProcessingService = "http://order-processing-service";
 
-        // send newOrder to order-processing-service
-        restTemplate.postForLocation(orderProcessingService + "/api/orders", newOrder);
-        log.info(String.format("Order is placed: %s", newOrder));
-
         // TO-DO: save the order to order database...
+        Order savedOrder = saveOrder(newOrder);
+
+        // send newOrder to order-processing-service
+        restTemplate.postForLocation(orderProcessingService + "/api/orders", savedOrder);
+        log.info(String.format("Order is placed: %s", savedOrder));
 
         return newOrder;
     }
+
 
     public Order processOrderFallBack (Order newOrder) {
         log.error("Unable to process order!");
         return null;
     }
 
-}
+    @Override
+    public Order saveOrder(Order order) {
+        Order savedOrder = orderRepository.save(order);
+        return savedOrder;
+    }
 
+}

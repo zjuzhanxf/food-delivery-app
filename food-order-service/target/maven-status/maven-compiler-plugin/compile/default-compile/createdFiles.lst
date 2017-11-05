@@ -1,5 +1,6 @@
 demo/domain/Order.class
 demo/service/OrderService.class
+demo/domain/OrderRepository.class
 demo/service/impl/DefaultOrderServiceImpl.class
 demo/FoodOrderServiceApplication.class
 demo/service/impl/RestaurantInfoServiceImpl.class

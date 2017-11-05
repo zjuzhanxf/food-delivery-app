@@ -1,7 +1,7 @@
 [
   {
-    "name": "Panda Express",
-    "category": "Chinese",
+    "restaurantName": "Panda Express",
+    "restaurantCategory": "Chinese",
     "rating": "3.5",
     "menuItemList": [
       {
@@ -19,8 +19,8 @@
     ]
   },
   {
-    "name": "Burger King",
-    "category": "American",
+    "restaurantName": "Burger King",
+    "restaurantCategory": "American",
     "rating": "3.0",
     "menuItemList": [
       {

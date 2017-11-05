@@ -1,4 +1,4 @@
-demo/OrderPaymentServiceApplication.class
-demo/domain/Payment.class
 demo/domain/CreditCardInfo.class
+demo/domain/Payment.class
+demo/OrderPaymentServiceApplication.class
 demo/OrderProcessingSink.class
