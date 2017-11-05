@@ -1,5 +1,21 @@
 rabbitmq:
   image: rabbitmq:3.6.1-management
+  container_name: food_deliver_app_rabbitmq
   ports:
     - "5672:5672"
     - "15672:15672"
+
+mysql:
+  image: mysql:5.6
+  container_name: payment_service_mysql
+  ports:
+    - 3306:3306
+  environment:
+    MYSQL_ROOT_PASSWORD: "password"
+    MYSQL_DATABASE: "payment_db"
+
+mongodb:
+  image: mongo:3.4.4
+  container_name: food_order_service_mongodb
+  ports:
+    - "27017:27017"
