@@ -21,6 +21,8 @@ public class DefaultOrderServiceImpl implements OrderService {
     private RestaurantInfoService restaurantInfoService;
     private OrderRepository orderRepository;
 
+
+    // eureka uses client side load balancing, called com.netflix.ribbon
     @Autowired
     private RestTemplate restTemplate;
 
