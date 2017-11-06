@@ -119,4 +119,4 @@ Go to http://localhost:15672/#/ and login with username "guest" and password "gu
 
 ### Eureka and Hystrix-dashboard
 Go to http://localhost:8761/ to view a list of registered services.
-Go to http://localhost:9001/hystrix.stream to monitor the system status.
+Go to http://localhost:7979/ and enter http://localhost:9001/hystrix.stream to monitor the food-order-service status.
