@@ -32,10 +32,11 @@ git clone https://github.com/zjuzhanxf/food-delivery-app.git
 
 ### build
 ```
+cd food-delivery-app
 mvn clean install
 ```
 
-### spin up containers
+### start containers
 Start MySQL, MongoDB and RabbitMQ containers.<br>
 MySQL: store payment information in order-payment-service. <br>
 MongoDB: store restaurant information and order information in food-order-service. <br>
